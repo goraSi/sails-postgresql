@@ -1,5 +1,19 @@
 # Sails PostgreSQL Changelog
 
+### 0.12.1
+
+* [BUG] Fixes issue with populates due to changes in projections queries coming from Waterline-Sequel. Updated the waterline-sequel dependency to 0.6.2 to fix.
+
+### 0.12.0
+
+* [Enhancement] Upgrades the version of Waterline-Sequel being used to support using projections in join queries. See [#234](https://github.com/balderdashy/sails-postgresql/pull/234) for more details.
+
+* [Enhancement] Adds JSHint and tweaks code style slightly to better support community additions. See [#235](https://github.com/balderdashy/sails-postgresql/pull/235) for more details.
+
+### 0.11.3
+
+* [BUG] Updates [Waterline-Sequel](https://github.com/balderdashy/waterline-sequel) dependency to actually fix the previous date issue.
+
 ### 0.11.2
 
 * [BUG] Updates [Waterline-Sequel](https://github.com/balderdashy/waterline-sequel) dependency to gain support for querying dates when they are represented as a string in the criteria.
